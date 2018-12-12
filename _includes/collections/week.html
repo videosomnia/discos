@@ -1,0 +1,55 @@
+<div class="wrapper">
+       
+        <div class="cards">
+
+                
+                {% for album in include.list %}
+
+             <!--   {% if album.tags contains 'jazz' %}  -->
+                
+                <article> 
+                   
+            <div class="card">
+                <div class="overlayer">
+                    <i class="far fa-play-circle"></i>
+
+         <!--           {% if album.tags %}
+                {% for tag in album.tags %}
+               <div class="tags"> <a href="/collections/{{ tag }}.html">
+                  <span class="tag">{{ tag }}</span>
+                </a></div>
+
+                
+                {% endfor %} -->
+
+                <div class="title">
+                    <a href="{{ album.url }}">{{ album.title }}<p>by {{ album.artist }}</p></a>
+                </div>
+
+                </div>
+                <img src="{{ album.img }}" alt="{{ album.title }} {{ album.artist }}">
+              
+              
+                
+
+                
+          
+              {% else %}
+                <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
+               {% endif %}  
+</div>
+            </article>
+            
+          <!--   {% endif %} -->
+                
+            {% endfor %}
+        
+            
+        </div>
+
+
+    </div>
+        
+   
+
+

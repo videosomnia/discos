@@ -1,0 +1,37 @@
+{% for album in include.list %}
+
+{% if album.tags contains 'jazz' %}
+
+  <article>
+    <a href="{{ album.url }}">
+      <img src="{{ album.img }}" alt="{{ album.title }} {{ album.artist }}"/>
+      <p>{{ album.title }}</p>
+    </a>
+    <p>by {{ album.artist }}</p>
+    {% if album.tags %}
+      {% for tag in album.tags %}
+      <a href="/collections/{{ tag }}.html">
+        <span class="tag">{{ tag }}</span>
+      </a>
+      {% endfor %}
+ 
+  <div class="favtrackbox">
+      <ul  style="list-style-type: none;">
+        <li><a class="favs" href="{{ album.fav1link }}">
+          {{ album.fav1 }} 
+       </a></li>
+        <li><a class="favs" href="{{ album.fav2link }}">
+          {{ album.fav2 }}
+       </a></li>
+     
+      </ul> 
+    </div>    
+
+    {% else %}
+      <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
+    {% endif %}
+  </article>
+
+  {% endif %}
+
+{% endfor %}

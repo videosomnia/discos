@@ -1,0 +1,55 @@
+
+
+<div class="wrapper">
+       
+  <div class="cards">
+
+
+          {% for album in include.list %}
+
+          
+          
+          <article> 
+             
+      <div class="card">
+          <div class="overlayer">
+              <i class="far fa-play-circle"></i>
+
+
+          {% if album.url contains 'spotify' %}  
+
+          <div class="title">
+              <a href="{{ album.url }}">{{ album.title }}<p>by {{ album.artist }}</p></a>
+          </div>
+
+          </div>
+          <img src="{{ album.img }}" alt="{{ album.title }} {{ album.artist }}">
+          
+          {% else %}
+
+          <div class="title">
+            <a href="{{ album.url }}">{{ album.title }}<p>by {{ album.artist }} </p> <span class="tag">Music Video</span> </a>
+        </div>
+
+        </div>
+        <img src="{{ album.img }}" alt="{{ album.title }} {{ album.artist }}">
+
+          {% endif %}  
+
+    
+       
+</div>
+      </article>
+      
+    
+      {% endfor %}
+  
+      
+  </div>
+
+
+</div>
+  
+
+
+

@@ -1,0 +1,66 @@
+
+
+<div class="wrapper">
+       
+        <div class="cards">
+
+
+                {% for album in include.list %}
+
+              {% if album.playlist contains 'my-first-playlist' %}  
+                
+                <article> 
+                   
+            <div class="card">
+                <div class="overlayer">
+                    <i class="far fa-play-circle"></i>
+
+         <!--           {% if album.tags %}
+                {% for tag in album.tags %}
+               <div class="tags"> <a href="/collections/{{ tag }}.html">
+                  <span class="tag">{{ tag }}</span>
+                </a></div>
+
+                
+                {% endfor %} -->
+
+                {% if album.url contains 'spotify' %}  
+
+                <div class="title">
+                    <a href="{{ album.url }}">{{ album.title }}<p>by {{ album.artist }}</p></a>
+                </div>
+
+                </div>
+                <img src="{{ album.img }}" alt="{{ album.title }} {{ album.artist }}">
+                
+                {% else %}
+
+                <div class="title">
+                  <a href="{{ album.url }}">{{ album.title }}<p>by {{ album.artist }} </p> <span class="tag">Music Video</span> </a>
+              </div>
+
+              </div>
+              <img src="{{ album.img }}" alt="{{ album.title }} {{ album.artist }}">
+
+                {% endif %}  
+
+          
+              {% else %}
+                <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
+               {% endif %}  
+</div>
+            </article>
+            
+          {% endif %} 
+                
+            {% endfor %}
+        
+            
+        </div>
+
+
+    </div>
+        
+   
+
+

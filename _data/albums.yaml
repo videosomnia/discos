@@ -1,0 +1,609 @@
+# Reference documentation of the YAML format:
+# https://symfony.com/doc/current/components/yaml/yaml_format.html
+
+- title: Madonna
+  artist: ...And You Will Know Us by the Trail of Dead
+  release_date: '1991-09-24'
+  tags:
+    - jazz
+    - rock
+    - funk
+  img: https://i.scdn.co/image/03a98eac0ed69edfb7739a37998141b2a6f02a4d
+  url: https://open.spotify.com/album/21LZrcSJWAQRbD7xJi37fH
+  playlist:   my-second-playlist
+  notes: |
+    None
+
+- title: Sackcloth -N- Ashes
+  artist: 16 Horsepower
+  release_date: '1991-09-24'
+  tags:
+    - jazz
+    - rock
+    - funk
+  img: https://i.scdn.co/image/b6f566d108591864bd37ea0b18bcd0e131bf33a0
+  url: https://open.spotify.com/album/6IufIUBhICqJv7Ex5SjX8k
+  playlist:   my-first-playlist, my-second-playlist  
+  notes: |
+    None
+
+- title: Trust
+  artist: 18+
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/b0c98d5c5b8ff93fcda53c514b6075118bce25d1
+  url: https://open.spotify.com/album/2pcHtn1Dn98fTCdXFECnRb
+  playlist: my-first-playlist, my-second-playlist
+
+  notes: |
+    None
+
+- title: Ghetto:Misfortune's Wealth
+  artist: 24 Carat Black
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/787dd3023164212c161f7731f30f3577f6510b7b
+  url: https://open.spotify.com/album/0v4BWrBj5t5GC9jBt3HYSg
+  playlist: my-first-playlist, my-second-playlist
+  notes: |
+    None
+    
+- title: All Eyez On Me
+  artist: 2Pac
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/d311ca24c89d533d205e366b6e8dc0327d465716
+  url: https://open.spotify.com/album/4CzT5ueFBRpbILw34HQYxi
+  playlist: my-first-playlist
+  notes: |
+    None
+
+- title: Bigger, Better, Faster, More !
+  artist: 4 Non Blondes
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/af9321832a0c82a64a1c90d8d1f69a47dc4faf74
+  url: https://open.spotify.com/album/2P8M5eo4zWFD0JJtH4D0iA
+  notes: |
+    None
+
+- title: Essence
+  artist: A Guy Called Gerald
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/dcbf79bcb8f3bef4e6ec97226c153f3a07c7a692
+  url: https://open.spotify.com/album/1zpQf2dRDhoqRUIX35TrW7
+  notes: |
+    None
+
+- title: Midnight Marauders
+  artist: A Tribe Called Quest
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/8fb152d19c7a8b1377058c5ca516ad2a8aca6c0f
+  url: https://open.spotify.com/album/4v5x3Oo3UjQ9YmF3hRAip5
+  notes: |
+    None
+
+- title: ´´i´´
+  artist: A.R. Kane
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/35a69e3b5c42f1523c070570f033996fcdd2de65
+  url: https://open.spotify.com/album/0ZGJxdV6mGv2fPcMaJ8iW0
+  notes: |
+    None
+
+- title: One Man Band
+  artist: Abner Jay
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/25e8d5f9dc5c9dab02ab0f64c32e3cb6af5bca62
+  url: https://open.spotify.com/album/7A4J5ZpBuSLKbOF31FBrta
+  notes: |
+    None
+
+- title: Rose
+  artist: ABRA
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/8f98b4308dca26a9a57d54c9eeb43297fac1dee6
+  url: https://open.spotify.com/album/0V8UU4es3kdF1djFZKlduq
+  notes: |
+    None
+
+- title: Liital
+  artist: Aby Ngana Diop
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/0aaa589010885358230c35abd8c7d309895a2155
+  url: https://open.spotify.com/album/6QyetVv00wTDqlTB1rhSTV
+  notes: |
+    None
+
+- title: Mr. Wonderful
+  artist: Action Bronson
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/962b0df3a164fa85135fe9e04d1533547cc5b7cd
+  url: https://open.spotify.com/album/7ijgeLAW3W3vZ9jf6tozFq
+  notes: |
+    None
+
+- title: Going Down
+  artist: Adam Beyer Dense & Pika
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/bc284c31ca8cb3442b2605d9caaac0a49184104c
+  url: https://open.spotify.com/album/7r1sxtvJsIqWOaa8cfp4wd
+  notes: |
+    None
+
+- title: Loud Like Nature
+  artist: Add N To (X)
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/9052da32766852bf0f0e82e3494297388473b875
+  url: https://open.spotify.com/album/0ELdlivmgAx57YfctMNiMD
+  notes: |
+    None
+
+- title: Adicta
+  artist: Shh
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/acb1fadc43507a5f21b6e7e1cacf55a8cdfc74e9
+  url: https://open.spotify.com/album/20iebrTvHzdZJZeHhFppVb
+  notes: |
+    None
+
+- title: Adolescents
+  artist: Adolescents
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/2148241664af40bb65c4fb04c09a143b6cb953bf
+  url: https://open.spotify.com/album/4qwDRyH5SwFcjyoOJKbE2d
+  notes: |
+    None
+
+- title: Agar Agar
+  artist: Cardan
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/6568635daf6bb6ba026439c9d8cc9fe4cad2cd15
+  url: https://open.spotify.com/album/2UEVp5YIeyRZ7obkSewDXJ
+  notes: |
+    None
+
+- title: Talkie Walkie
+  artist: Air
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/671f5bc32e02cbca2568054b0f578e63b9e2fe31
+  url: https://open.spotify.com/album/0hQOqvZv1nQvPiBjzyn363
+  notes: |
+    None
+
+- title: I'm Still in Love with You
+  artist: Al Green
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/c9b85d1b819a0de50117f53d1342d2aaade82416
+  url: https://open.spotify.com/album/7hI0QCwcx9GB8MZK24IfTT
+  notes: |
+    None
+
+- title: Jagged Little Pill
+  artist: Alanis Morissette
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/210df514d37e3ea434a5d440f3448bb00cc0ce44
+  url: https://open.spotify.com/album/5Ap3F8CxjjsQKZGASDcHNA
+  notes: |
+    None
+
+- title: Risveglio
+  artist: Alessandro Cortini
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/b06fba62a9998076bca5f41e1208e2fa3d18299c
+  url: https://open.spotify.com/album/5fAdZa0NA7lkx1SSH5i7OG
+  notes: |
+    None
+
+- title: So Far
+  artist: Alex Reece
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/369c043f1ae3587758e4fd282af28e4a6219f1b7
+  url: https://open.spotify.com/album/6Rkdy6k2kMLeMh1IEEQjIF
+  notes: |
+    None
+
+- title: Had a Dream
+  artist: Alexei Shishkin
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/872160ab6a140d0e6a0305aec50d4490406bbfea
+  url: https://open.spotify.com/album/0NbumgQVDUeVSqTZa1o7Vu
+  notes: |
+    None
+
+
+- title: The Devil Put Dinosaurs Here
+  artist: Alice In Chains
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/9b80daa14ef0c7244feafd2d7cb2422a169e22df
+  url: https://open.spotify.com/album/1NeunhIyCq0jkezLbOyKDM
+  notes: |
+    None
+
+- title: Allah-Las
+  artist: Allah-Las
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/f9b12a6f37be5df20512d74f0d196b511ab133d5
+  url: https://open.spotify.com/album/6ngfWAdXwSHcccXuqDymAj
+  notes: |
+    None
+
+- title: El 1er Álbum Más los Singles
+  artist: Almendra
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/5d72df74d8349e224628cce60171d832ba6db667
+  url: https://open.spotify.com/album/2Syxpgpva5hDmqCZpmmJHp
+  notes: |
+    None
+
+- title: This Is All Yours
+  artist: alt-J
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/70856fb86a5f4d55b69fb3a07b7b6cc18d9deaa7
+  url: https://open.spotify.com/album/6TbkWAqqY4nhQnYim61IU8
+  notes: |
+    None
+
+- title: Alvvays
+  artist: Alvvays
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/31139b26c62c6a4714e7a4ac4e830fbbd44b6d8d
+  url: https://open.spotify.com/album/4PrBMzWzzoMOwm55Bfo3dt
+  notes: |
+    None
+
+- title: LP
+  artist: Ambulance LTD
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/4d94cdba76cc82263c09e16c705d5567737af736
+  url: https://open.spotify.com/album/2t33jp65uAsG2NfiHmc6PJ
+  notes: |
+    None
+
+- title: Contradiction - EP
+  artist: Amelie Lens
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/383eda8c52e6448405b1f6378d12642500d08f5b
+  url: https://open.spotify.com/album/24g4qPqjctMWmAhOGRALzO
+  notes: |
+    None
+
+- title: Supermodified
+  artist: Amon Tobin
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/053d228c81675d3bec74089bebc1d7ca362e8f69
+  url: https://open.spotify.com/album/54zaC0AviuCfkDwHsUJIra
+  notes: |
+    None
+
+- title: Faith in Strangers
+  artist: Andy Stott
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/1a85abb76b1482866cabb8118921275ac89280fc
+  url: https://open.spotify.com/album/1BzMONuUlgUnqOrg2aQeAY
+  notes: |
+    None
+
+- title: MY WOMAN
+  artist: Angel Olsen
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/e90cd7b76ddb5c5cefd2c3119f4e7658e2427dac
+  url: https://open.spotify.com/album/5M8xQaQZuW2LZGVXZ3mlKN
+  notes: |
+    None
+
+- title: How I Loved You
+  artist: Angels Of Light
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/8c1f0b3af40a9f212094e24d12e578cfe5edc36a
+  url: https://open.spotify.com/album/6H4RZvItAzn1a43eYdDK8R
+  notes: |
+    None
+
+- title: Angus & Julia Stone
+  artist: Angus & Julia Stone
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/b25e0ff0c03f98275791a4342587aee5ca8d814c
+  url: https://open.spotify.com/album/5vHEg5Bla2RHel4mfIlQUF
+  notes: |
+    None
+
+- title: Anika
+  artist: Anika
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/3102f9720912570288a295be547ef90f7c39810a
+  url: https://open.spotify.com/album/0wcr6i3pA9jWXEBD8V44rM
+  notes: |
+    None
+
+- title: Prospect Hummer
+  artist: Animal Collective
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/062f90e81deac7984585688634ec0de818d915b8
+  url: https://open.spotify.com/album/5kSzVI7OkU53uDgfRHIoB4
+  notes: |
+    None
+
+- title: Obsession
+  artist: Animotion
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/d5110853ec70de9cb33efb06463e308fd8c97aea
+  url: https://open.spotify.com/album/77zu6NfDouq2TomJaVadKb
+  notes: |
+    None
+
+- title: Straight from the Heart
+  artist: Ann Peebles
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/a73e7bafdae5c058c3df2fc7d59bf47327911004
+  url: https://open.spotify.com/album/2HGzxUUz5q4jldJkodIarf
+  notes: |
+    None
+
+- title: Strange Weather
+  artist: Anna Calvi
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/c47f06c818fd92a1b42238f3b7f7e5dab92932e4
+  url: https://open.spotify.com/album/79sbowzBvsOoBAS4GhskrQ
+  notes: |
+    None
+
+- title: London Weekend
+  artist: Another Sunny Day
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/2288ade837438edfd193411f1faed2e59e03f515
+  url: https://open.spotify.com/album/0qqmFX3N1jydkGpnORVUhR
+  notes: |
+    None
+
+- title: End of Earth
+  artist: Antwon
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/3102f9720912570288a295be547ef90f7c39810a
+  url: https://open.spotify.com/album/0pJoKjuA7QjrRzYz9d6nXH
+  notes: |
+    None
+
+- title: 30th Century Records Compilation, Vol. 1
+  artist: Various artists
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/f111ce29efe9130e315c0662f8c1082e232ee224
+  url: https://open.spotify.com/album/7IyvpObtdCugwNN67Ok5Mq
+  notes: |
+    None
+
+- title: Windowlicker
+  artist: Aphex Twin
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/a58c375830cd9a92f16f8687933682850c8d4865
+  url: https://open.spotify.com/album/64XdBdXNdguPHzBg8bdk5A
+  notes: |
+    None
+
+- title: White Trash Heroes
+  artist: Archers Of Loaf
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/03ca00285362c96be4140a615361b18f489aec32
+  url: https://open.spotify.com/album/3XxAeJqC8MTRWYCKegwytB
+  notes: |
+    None
+
+- title: Derdang Derdang
+  artist: Archie Bronson Outfit
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/989e57a7fc66a9134df43d7bcd0d233d26afbb4a
+  url: https://open.spotify.com/album/0puqFSxOJwjoSUQHGVJDyx
+  notes: |
+    None
+
+- title: This Girl's In Love WIth You
+  artist: Aretha Franklin
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/1d288d9e2023ca92fbd8eb910e388067f40af95c
+  url: https://open.spotify.com/album/5TGmpcEuZsVIoxDWnJIan5
+  notes: |
+    None
+
+- title: pom pom
+  artist: Ariel Pink
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/7d3492d0bb300b52019c257e23c3f5c5f14ef872
+  url: https://open.spotify.com/album/4UhaqAS8V23KozB3dzLMax
+  notes: |
+    None
+
+- title: 3 Years, 5 Months And 2 Days In The Life Of...
+  artist: Arrested Development
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/04684b3e7a2a53f0261c097046359c0afad7315f
+  url: https://open.spotify.com/album/4QrhfVaznhrAPlM5xCKBPh
+  notes: |
+    None
+
+- title: Arthur Verocai
+  artist: Arthur Verocai
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/207b746939758f15fba964742e3377149f35e29b
+  url: https://open.spotify.com/album/68XPFFcO3PJRLEtijOfqcM
+  notes: |
+    None
+
+- title: pom pom
+  artist: Ariel Pink
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/7d3492d0bb300b52019c257e23c3f5c5f14ef872
+  url: https://open.spotify.com/album/4UhaqAS8V23KozB3dzLMax
+  notes: |
+    None
+
+- title: 3 Years, 5 Months And 2 Days In The Life Of...
+  artist: Arrested Development
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/04684b3e7a2a53f0261c097046359c0afad7315f
+  url: https://open.spotify.com/album/4QrhfVaznhrAPlM5xCKBPh
+  notes: |
+    None
+
+- title: Arthur Verocai
+  artist: Arthur Verocai
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/207b746939758f15fba964742e3377149f35e29b
+  url: https://open.spotify.com/album/68XPFFcO3PJRLEtijOfqcM
+  notes: |
+    None
+
+- title: pom pom
+  artist: Ariel Pink
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/7d3492d0bb300b52019c257e23c3f5c5f14ef872
+  url: https://open.spotify.com/album/4UhaqAS8V23KozB3dzLMax
+  notes: |
+    None
+
+- title: 3 Years, 5 Months And 2 Days In The Life Of...
+  artist: Arrested Development
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/04684b3e7a2a53f0261c097046359c0afad7315f
+  url: https://open.spotify.com/album/4QrhfVaznhrAPlM5xCKBPh
+  notes: |
+    None
+
+- title: Arthur Verocai
+  artist: Arthur Verocai
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/207b746939758f15fba964742e3377149f35e29b
+  url: https://open.spotify.com/album/68XPFFcO3PJRLEtijOfqcM
+  notes: |
+    None
+
+- title: pom pom
+  artist: Ariel Pink
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/7d3492d0bb300b52019c257e23c3f5c5f14ef872
+  url: https://open.spotify.com/album/4UhaqAS8V23KozB3dzLMax
+  notes: |
+    None
+
+- title: 3 Years, 5 Months And 2 Days In The Life Of...
+  artist: Arrested Development
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/04684b3e7a2a53f0261c097046359c0afad7315f
+  url: https://open.spotify.com/album/4QrhfVaznhrAPlM5xCKBPh
+  notes: |
+    None
+
+- title: Arthur Verocai
+  artist: Arthur Verocai
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/207b746939758f15fba964742e3377149f35e29b
+  url: https://open.spotify.com/album/68XPFFcO3PJRLEtijOfqcM
+  notes: |
+    None
+
+- title: pom pom
+  artist: Ariel Pink
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/7d3492d0bb300b52019c257e23c3f5c5f14ef872
+  url: https://open.spotify.com/album/4UhaqAS8V23KozB3dzLMax
+  notes: |
+    None
+
+- title: 3 Years, 5 Months And 2 Days In The Life Of...
+  artist: Arrested Development
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/04684b3e7a2a53f0261c097046359c0afad7315f
+  url: https://open.spotify.com/album/4QrhfVaznhrAPlM5xCKBPh
+  notes: |
+    None
+
+- title: Arthur Verocai
+  artist: Arthur Verocai
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/207b746939758f15fba964742e3377149f35e29b
+  url: https://open.spotify.com/album/68XPFFcO3PJRLEtijOfqcM
+  notes: |
+    None
+
+- title: pom pom
+  artist: Ariel Pink
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/7d3492d0bb300b52019c257e23c3f5c5f14ef872
+  url: https://open.spotify.com/album/4UhaqAS8V23KozB3dzLMax
+  notes: |
+    None
+
+- title: 3 Years, 5 Months And 2 Days In The Life Of...
+  artist: Arrested Development
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/04684b3e7a2a53f0261c097046359c0afad7315f
+  url: https://open.spotify.com/album/4QrhfVaznhrAPlM5xCKBPh
+  notes: |
+    None
+
+- title: Arthur Verocai
+  artist: Arthur Verocai
+  release_date: '1991-09-24'
+  tags: [ jazz, rock, funk ]
+  img: https://i.scdn.co/image/207b746939758f15fba964742e3377149f35e29b
+  url: https://open.spotify.com/album/68XPFFcO3PJRLEtijOfqcM
+  notes: |
+    None

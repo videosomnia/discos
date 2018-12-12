@@ -1,1 +1,35 @@
-theme: jekyll-theme-cayman
+title: # Name of your blog (this will show up at the top of your page and in the RSS feed)
+  Gon
+
+author: # Your name, as you want it to appear underneath each post and in the footer
+  Gon
+
+desc: Collection of music records I love, maintained with Jekyll on Github Pages
+
+keywords: music, albums, records, collection, jekyll, static-web
+
+repository: gonzaloperin/albums
+
+google_analytics: UA-1858235-4
+
+# github defaults
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+theme: jekyll-theme-primer
+gfm_quirks: paragraph_end
+
+
+# additional config
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  playlists:
+  outupt: true
+  permalink: /playlists/:path/
